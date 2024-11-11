@@ -30,13 +30,13 @@ pip install -r requirements.txt
 To run the script, use the following command:
 
 ```bash
-python card_generator.py <input_csv_path> <output_pdf_path>
+python generatePlayCards.py <input_csv_path> <output_pdf_path>
 ```
 
 ### Example
 
 ```bash
-python card_generator.py data/example-youtube-songs.csv example.pdf
+python generatePlayCards.py data/example-youtube-songs.csv example.pdf
 ```
 
 ## CSV Input Format
